@@ -9,7 +9,7 @@ A docker image for [Crater](https://craterapp.com/)
 
 | Tags | Size | Platformss | Build |
 |-|-|-|-|
-| `latest`, `stable` | ![](https://img.shields.io/docker/image-size/j33r/crater/latest?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-crater/Deploy/main?style=flat-square)
+| `latest`, `main` | ![](https://img.shields.io/docker/image-size/j33r/crater/main?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-crater/Deploy/main?style=flat-square)
 | `dev` | ![](https://img.shields.io/docker/image-size/j33r/crater/dev?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-crater/Deploy/dev?style=flat-square) | 
 
 # What is crater ?
