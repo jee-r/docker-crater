@@ -1,0 +1,19 @@
+#!/bin/sh
+
+
+if [ ! -f /app/.env ]; then 
+    
+    if [ ! -f /app/.env.example ]; then
+        git clone https://github.com/bytefury/crater.git /app
+        /usr/local/bin/composer install --no-cache --no-interaction --prefer-dist --optimize-autoloader 
+    fi
+    
+    cp /app/.env.example /app/.env && \
+    /usr/local/bin/php artisan storage:link || true
+    /usr/local/bin/php artisan --force key:generate
+
+    chmod -R 775 /app
+fi
+
+
+php-fpm
