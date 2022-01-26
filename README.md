@@ -3,7 +3,7 @@
 [![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/crater-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/crater)
 [![ghcr.io](https://img.shields.io/badge/ghrc%2Eio-jee%2D-r/crater-%232496ED?logo=github&style=flat-square)](https://ghcr.io/jee-r/crater)
 
-A docker image for [crater](https://kaliko.me/mpd-crater/)
+A docker image for [Crater](https://craterapp.com/)
 
 # Supported tags
 
@@ -108,8 +108,8 @@ services:
 networks:
   crater:
     attachable: true
-  traefik-public:
-    external: true
+#  traefik-public:
+#    external: true
 
 ```
 
