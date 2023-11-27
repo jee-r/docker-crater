@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-bullseye
+FROM php:8.3-fpm-bullseye
 
 LABEL name="docker-crater" \
       maintainer="Jee jee@jeer.fr" \
